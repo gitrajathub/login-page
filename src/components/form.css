@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vb;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.password{
+    width: 300px;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    border-top: 0;
+}
+
+.button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
